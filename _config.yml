@@ -8,13 +8,13 @@ permalink:        pretty
 # Setup
 title:            FGaz
 tagline:          'FGaz blog'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      '[TODO description]'
 url:              http://fgaz.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'fgaz'
+  url:            https://fgaz.github.io
 
 paginate:         5
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/fgaz/fgaz.github.io
