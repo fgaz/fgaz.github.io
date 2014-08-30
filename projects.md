@@ -7,4 +7,4 @@ title: Projects
 
 An as-short-as-possible (but still readable) morse decoder in haskell inspired by [this thread](http://www.reddit.com/r/programming/comments/7xjqb/who_can_write_the_smallesttidiestcleverest_morse/).
 
-[Github](github.com/fgaz/haskell-morse)
+[Github](http://github.com/fgaz/haskell-morse)
