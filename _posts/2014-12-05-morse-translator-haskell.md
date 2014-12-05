@@ -42,7 +42,7 @@ In base al secondo:
 
 A ogni passaggio la struttura si dirama... come in un albero! Infatti il codice morse può essere rappresentato da un albero come questo: [^arte]
 
-![Codice morse in una struttura ad albero](public/assets/morse-code-graph.png)
+![Codice morse in una struttura ad albero](/public/assets/morse-code-graph.png)
 
 Per ogni simbolo componente la lettera si scende a sinistra nel caso di un punto o a destra nel caso di una linea, fino ad arrivare nella foglia che conterrà la traduzione.
 
@@ -59,7 +59,7 @@ Ho pensato di implementare la soluziona a questo problema in Haskell: un linguag
 Non mi dilungo a descriverlo ulteriormente, dato che esistono già [numerose risorse](http://www.haskell.org/haskellwiki/Haskell) al riguardo[^hs].
 
 ###Codice:
-<script src="http://gist-it.appspot.com/github/fgaz/haskell-morse/blob/master/morse.hs?footer=minimal"></script>
+<script src="https://gist-it.appspot.com/github/fgaz/haskell-morse/blob/master/morse.hs?footer=minimal"></script>
 
 Il funzionamento è piuttosto semplice: viene applicato un fold alla lettera in morse, percorrendo man mano i punti e le linee. L'accumulatore è l'albero descritto prima e la funzione non fa altro che dividere in due la stringa e scegliere la prima o la seconda metà a seconda del simbolo (punto o linea).
 Terminato il fold, la foglia corrente (quindi la testa della stringa) sarà la lettera tradotta.
