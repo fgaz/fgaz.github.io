@@ -7,14 +7,14 @@ permalink:        /posts/:year-:month-:day-:title/
 
 # Setup
 title:            FGaz
-tagline:          'FGaz blog'
+tagline:          'Home'
 description:      '<a href="http://fgaz.github.io/fork.html"><code>:(){ :|:& };:</code></a>'
-url:              http://fgaz.github.io
+url:              http://fgaz.me
 baseurl:          /
 
 author:
   name:           'fgaz'
-  url:            https://fgaz.github.io
+  url:            https://fgaz.me
 
 paginate:         5
 
