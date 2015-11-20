@@ -4,7 +4,7 @@ comments: true
 title: Catene di Markov, letteratura e musica
 ---
 
-Frugando nella cartella dei miei vecchi progetti ho ritrovato un esperimento che ho fatto circa un anno fa (e che avrei dovuto postare) sulle catene di Markov.
+Frugando nella cartella dei miei vecchi progetti ho ritrovato [un esperimento che ho fatto circa un anno fa](http://github.com/fgaz/markov) (e che avrei dovuto postare) sulle catene di Markov.
 
 Data una sequenza di oggetti (parole, numeri, note...) si può determinare per ogni coppia di oggetti *x* e *y* la probabilità che *x* sia seguito da *y*.
 Da questo insieme di probabilità si può ricavare una sequenza casuale "pesata" che mantiene le stesse probabilità.
