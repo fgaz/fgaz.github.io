@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+language: italian
 title: Catene di Markov, letteratura e musica
 ---
 

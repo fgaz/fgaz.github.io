@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+language: italian
 title: Traduttore di codice morse in Haskell
 ---
 

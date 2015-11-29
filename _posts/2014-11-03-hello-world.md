@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: false
+language: italian
 title: Hello, World!
 ---
 
