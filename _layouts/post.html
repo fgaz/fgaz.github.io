@@ -2,7 +2,14 @@
 layout: default
 ---
 
-<div class="post">
+<div class="post"
+  {% case page.language %}
+    {% when 'italian' %}
+      xml:lang="it" lang="it-it"
+    {% when 'english' %}
+      xml:lang="en" lang="en-us"
+  {% endcase %}
+>
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
