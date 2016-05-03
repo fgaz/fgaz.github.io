@@ -6,6 +6,22 @@ title: Projects
 
 ## Useful things
 
+### shine
+
+Declarative graphics for the browser using [GHCJS](https://github.com/ghcjs/ghcjs)
+
+[Github](https://github.com/fgaz/shine)
+
+[Hackage](https://hackage.haskell.org/package/shine)
+
+### shine-varying
+
+FRP interface for shine
+
+[Github](https://github.com/fgaz/shine-varying)
+
+[Hackage](https://hackage.haskell.org/package/shine-varying)
+
 ### beeptest
 
 Audio per il Test della Navetta di Léger (o Beep Test)
