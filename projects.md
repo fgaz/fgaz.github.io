@@ -41,6 +41,18 @@ Yet Anonher Brainfuck Interpreter
 
 [Hackage](http://hackage.haskell.org/package/yabi)
 
+### experiments
+
+Various experiments (for now only an interference simulation)
+
+[Github](http://github.com/fgaz/experiments)
+
+### pure-html-calc
+A pure HTML calculator. No css or javascript.
+
+[Github](http://github.com/fgaz/pure-html-calc/)
+[Live demo](http://fgaz.me/pure-html-calc/)
+
 ### hackertyper
 
 "Hack" like a programmer in movies and games! Inspired by http://hackertyper.net
