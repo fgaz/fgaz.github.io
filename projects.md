@@ -22,6 +22,14 @@ FRP interface for shine
 
 [Hackage](https://hackage.haskell.org/package/shine-varying)
 
+### unitncal
+
+Calendar scraper for unitn.it
+
+[Constantly updated iCal files](http://unitncal.fgaz.me)
+
+[Github](http://github.com/fgaz/unitncal)
+
 ### beeptest
 
 Audio per il Test della Navetta di Léger (o Beep Test)
