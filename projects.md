@@ -59,6 +59,7 @@ Various experiments (for now only an interference simulation)
 A pure HTML calculator. No css or javascript.
 
 [Github](http://github.com/fgaz/pure-html-calc/)
+
 [Live demo](http://fgaz.me/pure-html-calc/)
 
 ### hackertyper
