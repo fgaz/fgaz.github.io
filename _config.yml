@@ -14,7 +14,7 @@ baseurl:          /
 
 author:
   name:           'fgaz'
-  url:            https://fgaz.me
+  url:            http://fgaz.me
 
 paginate:         5
 
