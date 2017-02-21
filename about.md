@@ -4,7 +4,7 @@ title: About
 tags: [about,contact,fgaz]
 ---
 
-I'm Francesco Gazzetta, a student of computer science from Treviso, Italy. I enjoy programming, hiking, photographing~, and keeping this blog up-to-date~.
+I'm Francesco Gazzetta, a student of computer science from Treviso, Italy. I enjoy programming, hiking, photographing<s>, and keeping this blog up-to-date</s>.
 
 You can contact me on a variety of services:
 
