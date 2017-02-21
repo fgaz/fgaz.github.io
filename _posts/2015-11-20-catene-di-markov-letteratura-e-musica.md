@@ -3,6 +3,7 @@ layout: post
 comments: true
 language: italian
 title: Catene di Markov, letteratura e musica
+tags: [markov,text processing,experiment,haskell]
 ---
 
 Frugando nella cartella dei miei vecchi progetti ho ritrovato [un esperimento che ho fatto circa un anno fa](http://github.com/fgaz/markov) (e che avrei dovuto postare) sulle catene di Markov.

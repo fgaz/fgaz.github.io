@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+tags: [projects,list,works]
 ---
 
 
