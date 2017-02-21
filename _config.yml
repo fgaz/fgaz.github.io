@@ -8,7 +8,7 @@ permalink:        /posts/:year-:month-:day-:title/
 # Setup
 title:            FGaz
 tagline:          'Home'
-description:      '<a href="http://fgaz.github.io/fork.html"><code>:(){ :|:& };:</code></a>'
+description:      "Personal website of Francesco Gazzetta (fgaz), a student of computer science from Italy"
 url:              http://fgaz.me
 baseurl:          /
 
