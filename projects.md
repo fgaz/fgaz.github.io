@@ -52,7 +52,7 @@ Yet Anonher Brainfuck Interpreter
 
 ### experiments
 
-Various experiments (for now only an interference simulation)
+Various experiments and puzzles
 
 [Github](http://github.com/fgaz/experiments)
 
