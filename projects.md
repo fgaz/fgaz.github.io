@@ -31,6 +31,22 @@ Calendar scraper for unitn.it
 
 [Github](http://github.com/fgaz/unitncal)
 
+### polyvariadic
+
+Creation and application of polyvariadic functions
+
+[Github](https://github.com/fgaz/polyvariadic)
+
+[not yet on Hackge]()
+
+### identicon-styles
+
+Some styles for the `identicon` package
+
+[Github](https://github.com/fgaz/identicon-styles)
+
+[not yest on Hackage]()
+
 ### beeptest
 
 Audio per il Test della Navetta di Léger (o Beep Test)
