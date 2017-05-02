@@ -37,7 +37,7 @@ Creation and application of polyvariadic functions
 
 [Github](https://github.com/fgaz/polyvariadic)
 
-[not yet on Hackge]()
+[Hackage](https://hackage.haskell.org/package/polyvariadic)
 
 ### identicon-styles
 
