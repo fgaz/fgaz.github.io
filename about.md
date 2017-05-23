@@ -15,6 +15,6 @@ You can contact me on a variety of services:
 * Tox: [C3CAB644155FA4C95B87FE7F67704EEE30E616623BF7D794BCE54E4C7B640B04B24F7832CA2D](tox:C3CAB644155FA4C95B87FE7F67704EEE30E616623BF7D794BCE54E4C7B640B04B24F7832CA2D) (rarely online)
 * Keybase: [@fgaz](https://keybase.io/fgaz)
 * Reddit: [/u/fgaz\_](https://reddit.com/u/fgaz_)
-* Twitter: [@fgaz](https://twitter.com/fgaz_)
+* Twitter: [@fgaz\_](https://twitter.com/fgaz_)
 * Facebook: [gazzetta.francesco](http://facebook.com/gazzetta.francesco/)
 
