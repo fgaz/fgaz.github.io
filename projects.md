@@ -55,12 +55,6 @@ A generic pager serving html pages from a single big textfile
 
 [not yet on Hackage]()
 
-### emojiid
-
-Deterministically assign an emoji to a user/machine pair
-
-[Github](https://github.com/fgaz/emojiid)
-
 ### beeptest
 
 Audio per il Test della Navetta di Léger (o Beep Test)
@@ -85,6 +79,12 @@ Yet Anonher Brainfuck Interpreter
 Various experiments and puzzles
 
 [Github](http://github.com/fgaz/experiments)
+
+### emojiid
+
+Deterministically assign an emoji to a user/machine pair
+
+[Github](https://github.com/fgaz/emojiid)
 
 ### pure-html-calc
 A pure HTML calculator. No css or javascript.
