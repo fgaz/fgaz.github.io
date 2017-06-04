@@ -47,6 +47,20 @@ Some styles for the `identicon` package
 
 [not yest on Hackage]()
 
+### webpager
+
+A generic pager serving html pages from a single big textfile
+
+[Github](https://github.com/fgaz/webpager)
+
+[not yest on Hackage]()
+
+### emojiid
+
+Deterministically assign an emoji to a user/machine pair
+
+[Github](https://github.com/fgaz/emojiid)
+
 ### beeptest
 
 Audio per il Test della Navetta di Léger (o Beep Test)
