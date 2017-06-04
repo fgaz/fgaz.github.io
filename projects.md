@@ -45,7 +45,7 @@ Some styles for the `identicon` package
 
 [Github](https://github.com/fgaz/identicon-styles)
 
-[not yest on Hackage]()
+[not yet on Hackage]()
 
 ### webpager
 
@@ -53,7 +53,7 @@ A generic pager serving html pages from a single big textfile
 
 [Github](https://github.com/fgaz/webpager)
 
-[not yest on Hackage]()
+[not yet on Hackage]()
 
 ### emojiid
 
