@@ -63,6 +63,14 @@ Audio per il Test della Navetta di Léger (o Beep Test)
 
 [Github](http://github.com/fgaz/beeptest)
 
+### servant-iCalendar
+
+Servant support for iCalendar
+
+[Github](https://github.com/fgaz/servant-iCalendar)
+
+[Hackage](https://hackage.haskell.org/package/servant-iCalendar)
+
 
 ## Fun things, experiments
 
