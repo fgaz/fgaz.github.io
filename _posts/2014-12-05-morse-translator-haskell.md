@@ -14,7 +14,7 @@ Per chi non lo sapesse il [Codice Morse](http://it.wikipedia.org/wiki/Codice_Mor
 
 ![Il Codice Morse](http://upload.wikimedia.org/wikipedia/commons/e/e9/International_Morse_code.png)
 
-##L'idea più semplice
+## L'idea più semplice
 
 La soluzione più semplice e intuitiva è ovviamente quella di associare a ogni sequenza di punti e linee la lettera dell'alfabeto corrispondente usando un dizionario o simili:
 
@@ -26,7 +26,7 @@ La soluzione più semplice e intuitiva è ovviamente quella di associare a ogni 
 
 Hm. Funziona, ma non è né corto né "intelligente". Si può fare di meglio!
 
-##Strutturare i dati
+## Strutturare i dati
 
 Come si possono esprimere questi dati in maniera più concisa? Beh, una lettera in morse è composta da un punto o una linea, che può essere o non essere seguito da un altro punto o linea e così via. Si può provare a dividere le lettere su questa base!
 
@@ -55,12 +55,12 @@ Se per ogni foglia si scrive la lettera corrispondente seguita da due stringhe d
 
 
 
-##Il codice
+## Il codice
 
 Ho pensato di implementare la soluziona a questo problema in Haskell: un linguaggio funzionale puro in cui mi sto cimentando che probabilmente apparirà molto spesso in queste pagine...
 Non mi dilungo a descriverlo ulteriormente, dato che esistono già [numerose risorse](http://www.haskell.org/haskellwiki/Haskell) al riguardo[^hs].
 
-###Codice:
+### Codice:
 <script src="https://gist-it.appspot.com/github/fgaz/haskell-morse/blob/master/morse.hs?footer=minimal"></script>
 
 Il funzionamento è piuttosto semplice: viene applicato un fold alla lettera in morse, percorrendo man mano i punti e le linee. L'accumulatore è l'albero descritto prima e la funzione non fa altro che dividere in due la stringa e scegliere la prima o la seconda metà a seconda del simbolo (punto o linea).
