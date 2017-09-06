@@ -10,7 +10,7 @@ title:            FGaz
 tagline:          'Home'
 description:      "Personal website of Francesco Gazzetta (fgaz), a student of computer science from Italy"
 url:              http://fgaz.me
-baseurl:          /
+baseurl:          http://fgaz.me/
 
 author:
   name:           'fgaz'
