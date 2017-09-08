@@ -152,7 +152,7 @@ pinging-perseverance on #hackage
 </figure>
 
 Moreover, the documentation is improving. The undocumented parts are mostly old
-code, and there is an ongoing effort to extend it.
+code, and there is an ongoing effort to cover that too.
 
 And again, Haskell's types come to the rescue! The type always enhances and
 often replaces the documentation in a more expressive way.
