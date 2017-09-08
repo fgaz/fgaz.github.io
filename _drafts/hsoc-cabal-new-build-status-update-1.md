@@ -9,7 +9,7 @@ the old commands.
 ## What has been done
 
 My original proposal was _way_ too optimistic.
-Of the many secondary and optional goals which I planned, I've reached zero of them.
+Of the many secondary and optional goals I planned, I've reached zero of them.
 
 Fortunately they were, as I wrote, secondary.
 
@@ -21,7 +21,7 @@ The most important goal of the project was to reach feature parity with old-buil
 
 * [`new-run`](https://github.com/haskell/cabal/issues/4586) is now fully functional
 * `new-test` and [`new-bench`](https://github.com/haskell/cabal/issues/4614)
-   they work, except from some rough edges (like the ability to pass arguments to tests)
+   work, except from some rough edges (like the ability to pass arguments to tests)
 * [`new-exec`](https://github.com/haskell/cabal/issues/4722)
   has always been kind of an hack and we discussed a lot about it.
   Environment files helped a lot, and you should [check them out](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/packages.html#package-environments)!
@@ -187,7 +187,7 @@ created a convoluted merge graph, almost impossible to disentangle.
 Oh well, we learn from our errors.
 
 I also had to exercise my multitasking skills by working on different branches.
-While the tests run, I could write the docs for another command. Or two.
+While the tests for one branch were running, I could write the docs for another command. Or two.
 The tests take a _long_ time.
 
 Which takes us to...
@@ -218,7 +218,7 @@ pointless bugs now. Planning time is not wasted time!
 
 One little thing: cabal now uses a slightly different path for built binaries.
 
-My build command used the old one, and U wasted 1 hour or so trying to figure
+My build command used the old one, and I wasted 1 hour or so trying to figure
 out why my debug statements weren't printing anything.
 
 This happened ~~two~~ three times.
