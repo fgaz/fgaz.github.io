@@ -2,7 +2,7 @@
 layout: post
 comments: true
 language: english
-title: Haskell Summer of Code 2017: Last Mile for `cabal new-build`: first and last status update
+title: "Haskell Summer of Code 2017: Last Mile for `cabal new-build`: first and last status update"
 tags: [haskell,cabal,hsoc,new-build]
 ---
 
