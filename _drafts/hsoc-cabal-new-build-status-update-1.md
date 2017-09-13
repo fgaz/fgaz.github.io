@@ -3,7 +3,7 @@
 Time flies! The Haskell Summer of Code is over, and this is my first and last
 status update. Last in the HSoC, but not in the project, as you'll see later.
 
-My project was to bring `new-build` to an usable state, hopefully replacing
+My goal was to bring `new-build` to a usable state, to eventually replace
 the old commands.
 
 ## What has been done
@@ -12,6 +12,7 @@ My original proposal was _way_ too optimistic.
 Of the many secondary and optional goals I planned, I've reached zero of them.
 
 Fortunately they were, as I wrote, secondary.
+`new-build` was and is a work in progress, but now it's close to completion.
 
 Here's a summary of what I did:
 
@@ -30,7 +31,20 @@ With these commands, `new-build` only lacks `new-install`.
 
 ### Data-files
 
-`new-run` corrected the data-files problem by using the correct environment variable.
+Data-files are additional files to be included in a package distribution
+(be it a sdist, a debian package or the store itself). They are used when including
+the data in the executable itself (eg. with a literal string or even
+a picture using [file-embed](http://hackage.haskell.org/package/file-embed))
+is not feasible or not practical.
+
+The path to the data-files is hardcoded at compile-time (the `--datadir` flag),
+and by default it is set to the store (where the majority of packages will reside).
+For this reason, when using an inplace-built package, `datadir` resolved to a
+non-existing directory.
+
+Fortunately, `datadir` can be overridden with an environment variable, which is
+now properly set by `new-run`.
+
 If your project includes data-files, now you can use `new-run` and it should work without problems.
 
 ### [`new-install`](https://github.com/haskell/cabal/issues/4558) ...almost
@@ -45,7 +59,7 @@ This is the biggest command, because it actually handles four cases:
 
 The first one, which allows the installation of programs from hackage,
 and is probably the most used one (eg. `cabal new-install pandoc`),
-is [almost complete]().
+is [almost complete (needs some cleanup but it works)](https://github.com/fgaz/cabal/tree/new-install/2).
 
 The difference with old-install is that executables will be installed
 in the store and symlinked to `~/.cabal/bin` or equivalent.
@@ -54,12 +68,9 @@ This raises the problem of garbage collection: deleting the symlink leaves
 the executable and all of its dependencies in the store.
 In the future, a [`cabal garbage-collect`](https://github.com/haskell/cabal/issues/3333) command will track the symlinks and automatically clean the store.
 
-### Obviously, bugs. Oh, and also some bugfixes.
+### How to try it
 
-There are lots of people who use cabal HEAD, so I immediately received some
-bug reports.
-
-Note that HEAD always builds and should be fairly stable.
+Cabal HEAD should always build and should be fairly stable.
 If you want to try the new features just run:
 
         cabal get -s cabal-install
@@ -97,7 +108,7 @@ Again, there is a design concept on the [issue page](https://github.com/haskell/
 
 ### Flags for package maintainers
 
-Before replacing old-build, we need to be sure that package mantainers
+Before replacing old-build, we need to be sure that package maintainers
 have still a way to control the location of binaries and data-files.
 
 ## Difficulties I encountered
@@ -130,7 +141,7 @@ I just "followed the types", and everything clicked on the first try,
 
 ### Lack of documentation
 
-The cabal [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is somewhat high.
+The cabal [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is somewhat low.
 
 Some parts of the codebase are completely devoid of comments, and we lack an
 overview of the codebase, some document which describes how cabal works and
@@ -223,6 +234,12 @@ out why my debug statements weren't printing anything.
 
 This happened ~~two~~ three times.
 
+You only need to worry about this if you use both pre- and post-2.0 new-build
+in the same project though. While pre-2.0 puts the executables in
+`dist-newstyle/build/package-id/build/exe/exe`,
+post-2.0 puts them in
+`dist-newstyle/build/os/compiler/package-id/build/exe/exe`.
+
 ## Good things
 
 ### Now I use new-build for all my Haskell projects!
@@ -237,7 +254,7 @@ specifically about how to integrate new-build and vim.
 The Haskell Summer of Code has been a wonderful experience,
 and I recommend it to every student who is reading this!
 
-It teached me so much, and I loved being able to work on an open source project
+It taught me so much, and I loved being able to work on an open source project
 as widely used as cabal (well, in the Haskell ecosystem at least :-P ).
 
 ### The Community
@@ -246,15 +263,19 @@ And last but absolutely not least, the #hackage community was always very
 helpful and friendly, offering constructive criticism
 and involving me in related projects.
 
-## Acknowledgements
+## Acknowledgments
 
 I'd like to thank the Haskell community, always friendly and striving for
 knowledge; the organizers and sponsors, which made possible this HSoC;
 and most of all the #hackage folks: 
 [Daniel](http://dmwit.com/), my mentor, who helped me a lot
-when I was lost in the code or when I needed to plan, Duncan "dcoutts",
+when I was lost in the code or when I needed to plan,
+Duncan "dcoutts",
 Herbert "hvr",
-Mikhail "refold", Edward "ezyang", and any others who helped me along the way.
+Mikhail "refold",
+Edward "ezyang",
+alanz, merijn, phadej, cocreature,
+and any others who helped me along the way.
 
 ## Upcoming posts
 
