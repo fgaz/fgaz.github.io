@@ -95,7 +95,7 @@ a few essential features are missing.
 
 <figure>
   <img src="../public/assets/simpson-murderhorn.jpg" alt="a small mountain, and a big mountain"/>
-  <figcaption>`new-install` is the one [just to the right](https://www.youtube.com/watch?v=WPL1vf87dWY)</figcaption>
+  <figcaption>`new-install` is the one <a href="https://www.youtube.com/watch?v=WPL1vf87dWY">just to the right</a></figcaption>
 </figure>
 
 ### Finishing `new-install`
@@ -136,7 +136,7 @@ during an extended period of time.
 
 <figure>
   <img src="../public/assets/interstellar-signature.png" alt="an Interstellar meme"/>
-  <figcaption>[_[ORGAN INTENSIFIES]_](https://www.youtube.com/watch?v=Hwues9rwAIY)[^pipes]</figcaption>
+  <figcaption><a href="https://www.youtube.com/watch?v=Hwues9rwAIY"><em>[ORGAN INTENSIFIES]</em></a>[^pipes]</figcaption>
 </figure>
 
 Haskell's strong types helped me a lot here. When I was working on `new-bench`,
@@ -182,7 +182,7 @@ I now see that my git practices weren't the best...
   <img src="../public/assets/xkcd-git_commit.png" alt="A messy git history"/>
   <figcaption>
     <p>well, not at _this_ level, but...</p>
-    <p><small>Credit: [xkcd](https://www.xkcd.com/1296/) (CC BY-NC 2.5)</small></p>
+    <p><small>Credit: <a href="https://www.xkcd.com/1296/">xkcd</a> (CC BY-NC 2.5)</small></p>
   </figcaption>
 </figure>
 
@@ -217,7 +217,7 @@ five years) to 8.2. And there are the FTP and the AMP in the middle.
 <figure>
   <img src="../public/assets/xkcd-ci-is-running.png" alt="Two stick figures play with swords while ci runs"/>
   <figcaption><small>
-    Credit: [xkcd](https://www.xkcd.com/303/) (CC BY-NC 2.5)
+    Credit: <a href="https://www.xkcd.com/303/">xkcd</a> (CC BY-NC 2.5)
   </small></figcaption>
 </figure>
 
