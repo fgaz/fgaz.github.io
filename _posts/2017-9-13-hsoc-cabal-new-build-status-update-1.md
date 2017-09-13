@@ -7,7 +7,7 @@ tags: [haskell,cabal,hsoc,new-build]
 ---
 
 Time flies! The Haskell Summer of Code is over, and this is my first and last
-status update. Last in the HSoC, but not in the project, as you'll see later.
+status update. Last in the HSoC, but not in the project, as you'll see.
 
 My goal was to bring `new-build` to a usable state, to eventually replace
 the old commands.
@@ -74,7 +74,7 @@ This raises the problem of garbage collection: deleting the symlink leaves
 the executable and all of its dependencies in the store.
 In the future, a [`cabal garbage-collect`](https://github.com/haskell/cabal/issues/3333) command will track the symlinks and automatically clean the store.
 
-### How to try it
+## How to try it
 
 Cabal HEAD should always build and should be fairly stable.
 If you want to try the new features just run:
@@ -91,10 +91,12 @@ or `cabal new-build`.
 90% of the work was done, now there's [the other 90%](https://en.wikipedia.org/wiki/Ninety-ninety_rule).
 
 The HSoC is now complete, but `new-build` cannot replace the old interface yet:
-a few essential features are missing.
+a few essential features are missing, and --now that I'm more familiar with the
+cabal codebase-- I plan to work on some of them even outside of the HSoC period.
+[^bait]
 
 <figure>
-  <img src="../public/assets/simpson-murderhorn.jpg" alt="a small mountain, and a big mountain"/>
+  <img src="/public/assets/simpson-murderhorn.jpg" alt="a small mountain, and a big mountain"/>
   <figcaption>`new-install` is the one <a href="https://www.youtube.com/watch?v=WPL1vf87dWY">just to the right</a></figcaption>
 </figure>
 
@@ -123,9 +125,9 @@ have still a way to control the location of binaries and data-files.
 
         > cloc cabal
         [...]
-        Language                      files          blank        comment           code
-        --------------------------------------------------------------------------------
-        Haskell                        1273          24897          28127         120096
+        Language          files      blank    comment       code
+        --------------------------------------------------------
+        Haskell            1273      24897      28127     120096
 
 
 Cabal is big. Big project, big functions, big types, big everything.
@@ -135,15 +137,13 @@ and this was my first impact with a real-world project developed by a team
 during an extended period of time.
 
 <figure>
-  <img src="../public/assets/interstellar-signature.png" alt="an Interstellar meme"/>
-  <figcaption><a href="https://www.youtube.com/watch?v=Hwues9rwAIY"><em>[ORGAN INTENSIFIES]</em></a>[^pipes]</figcaption>
+  <img src="/public/assets/interstellar-signature.png" alt="an Interstellar meme"/>
+  <figcaption><a href="https://www.youtube.com/watch?v=Hwues9rwAIY"><em>[ORGAN INTENSIFIES]</em></a><!--[^pipes]--></figcaption>
 </figure>
 
 Haskell's strong types helped me a lot here. When I was working on `new-bench`,
 I just "followed the types", and everything clicked on the first try,
 [as the legends say](https://wiki.haskell.org/Why_Haskell_just_works).
-
-<!-- MAYBE add something about code duplication? -->
 
 ### Lack of documentation
 
@@ -161,7 +161,7 @@ pinging-perseverance on #hackage
 ...fortunately they are always happy to give some pointers to newcomers :) .
 
 <figure>
-  <img src="../public/assets/dcoutts-sorcerer.jpg" alt="dcoutts as a sorcerer on cabal as a creature"/>
+  <img src="/public/assets/dcoutts-sorcerer.jpg" alt="dcoutts as a sorcerer on cabal as a creature"/>
   <figcaption>
     In this rare photography we can see dcoutts (top) while he invokes
     a nix-style build on cabal (below)
@@ -179,9 +179,9 @@ often replaces the documentation in a more expressive way.
 I now see that my git practices weren't the best...
 
 <figure>
-  <img src="../public/assets/xkcd-git_commit.png" alt="A messy git history"/>
+  <img src="/public/assets/xkcd-git_commit.png" alt="A messy git history"/>
   <figcaption>
-    <p>well, not at _this_ level, but...</p>
+    <p>well, not at <em>this</em> level, but...</p>
     <p><small>Credit: <a href="https://www.xkcd.com/1296/">xkcd</a> (CC BY-NC 2.5)</small></p>
   </figcaption>
 </figure>
@@ -215,7 +215,7 @@ There's 4 hours worth of tests, from ghc 7.6 (cabal has a support window of
 five years) to 8.2. And there are the FTP and the AMP in the middle.
 
 <figure>
-  <img src="../public/assets/xkcd-ci-is-running.png" alt="Two stick figures play with swords while ci runs"/>
+  <img src="/public/assets/xkcd-ci-is-running.png" alt="Two stick figures play with swords while ci runs"/>
   <figcaption><small>
     Credit: <a href="https://www.xkcd.com/303/">xkcd</a> (CC BY-NC 2.5)
   </small></figcaption>
@@ -292,3 +292,4 @@ and any others who helped me along the way.
 
 [^pipes]: This deserves a `pipes` pun
 [^conflicts]: [Well, even when i did...](https://xkcd.com/1597/)
+[^bait]: I'm beginning to suspect that the Haskell Summer of Code is just an evil scheme to lure some poor students to become permanent contributors to the Haskell ecosystem ;)
