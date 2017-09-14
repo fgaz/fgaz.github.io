@@ -201,6 +201,13 @@ properly too.
 This didn't always go well. In an attempt to rebase an old branch I accidentally
 created a convoluted merge graph, almost impossible to disentangle.
 
+<figure>
+  <img src="/public/assets/merge-hell.png" alt="A very messy git history"/>
+  <figcaption>
+    Welp.
+  </figcaption>
+</figure>
+
 Oh well, we learn from our errors.
 
 I also had to exercise my multitasking skills by working on different branches.
