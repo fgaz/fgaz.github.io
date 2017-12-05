@@ -16,6 +16,7 @@ author:
   name:           'fgaz'
   url:            http://fgaz.me
 
+plugins: [jekyll-paginate]
 paginate:         5
 
 # Custom vars
