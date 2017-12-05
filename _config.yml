@@ -9,12 +9,12 @@ permalink:        /posts/:year-:month-:day-:title/
 title:            FGaz
 tagline:          'Home'
 description:      "Personal website of Francesco Gazzetta (fgaz), a student of computer science from Italy"
-url:              http://fgaz.me
-baseurl:          http://fgaz.me/
+url:              //fgaz.me
+baseurl:          //fgaz.me/
 
 author:
   name:           'fgaz'
-  url:            http://fgaz.me
+  url:            //fgaz.me
 
 plugins: [jekyll-paginate]
 paginate:         5
