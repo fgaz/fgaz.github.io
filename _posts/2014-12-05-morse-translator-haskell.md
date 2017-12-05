@@ -6,13 +6,13 @@ title: Traduttore di codice morse in Haskell
 tags: [haskell,morse,code golf]
 ---
 
-Qualche tempo fa ho trovato su /r/programming [questo vecchio thread](http://www.reddit.com/r/programming/comments/7xjqb/who_can_write_the_smallesttidiestcleverest_morse/) con un interessante esercizio di programmazione. La richiesta era in apparenza molto semplice:
+Qualche tempo fa ho trovato su /r/programming [questo vecchio thread](https://www.reddit.com/r/programming/comments/7xjqb/who_can_write_the_smallesttidiestcleverest_morse/) con un interessante esercizio di programmazione. La richiesta era in apparenza molto semplice:
 
 > Chi sa scrivere il più piccolo/pulito/intelligente traduttore di Codice Morse?
 
-Per chi non lo sapesse il [Codice Morse](http://it.wikipedia.org/wiki/Codice_Morse) è un alfabeto composto di soli punti e linee, utilizzato per inviare messaggi a distanza tramite luce, suono o simili mantenendoli umanamente comprensibili.
+Per chi non lo sapesse il [Codice Morse](https://it.wikipedia.org/wiki/Codice_Morse) è un alfabeto composto di soli punti e linee, utilizzato per inviare messaggi a distanza tramite luce, suono o simili mantenendoli umanamente comprensibili.
 
-![Il Codice Morse](http://upload.wikimedia.org/wikipedia/commons/e/e9/International_Morse_code.png)
+![Il Codice Morse](https://upload.wikimedia.org/wikipedia/commons/e/e9/International_Morse_code.png)
 
 ## L'idea più semplice
 
@@ -48,7 +48,7 @@ A ogni passaggio la struttura si dirama... come in un albero! Infatti il codice 
 
 Per ogni simbolo componente la lettera si scende a sinistra nel caso di un punto o a destra nel caso di una linea, fino ad arrivare nella foglia che conterrà la traduzione.
 
-Come esprimere tutto questo in un linguaggio di programmazione? Si può creare un tipo di dato (come è già stato fatto [qui](http://www.reddit.com/r/programming/comments/7xjqb/who_can_write_the_smallesttidiestcleverest_morse/c07okh3))...  
+Come esprimere tutto questo in un linguaggio di programmazione? Si può creare un tipo di dato (come è già stato fatto [qui](https://www.reddit.com/r/programming/comments/7xjqb/who_can_write_the_smallesttidiestcleverest_morse/c07okh3))...  
 ...Oppure comprimere tutto l'albero in un'unica stringa! [^complicazioni]
 
 Se per ogni foglia si scrive la lettera corrispondente seguita da due stringhe di lunghezza uguale contenenti i due rami collegati a quella foglia (rappresentati con lo stesso metodo) [^ripiegare] si ottiene `" eishvuf?arl?wpjtndbxkcymgzqo??"`. I punti di domanda sono dei segnaposto che indicano la mancanza di una lettera corrispondente a quella sequenza (le caselle dell'albero vuote).
@@ -58,7 +58,7 @@ Se per ogni foglia si scrive la lettera corrispondente seguita da due stringhe d
 ## Il codice
 
 Ho pensato di implementare la soluziona a questo problema in Haskell: un linguaggio funzionale puro in cui mi sto cimentando che probabilmente apparirà molto spesso in queste pagine...
-Non mi dilungo a descriverlo ulteriormente, dato che esistono già [numerose risorse](http://www.haskell.org/haskellwiki/Haskell) al riguardo[^hs].
+Non mi dilungo a descriverlo ulteriormente, dato che esistono già [numerose risorse](https://www.haskell.org/haskellwiki/Haskell) al riguardo[^hs].
 
 ### Codice:
 <script src="https://gist-it.appspot.com/github/fgaz/haskell-morse/blob/master/morse.hs?footer=minimal"></script>
