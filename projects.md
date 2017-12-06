@@ -132,7 +132,5 @@ A simple configuration library
 
 A single-thread minimal imageboard written in python.
 
-[Live demo](http://minib-effegi.rhcloud.com)
-
 [Github](https://github.com/fgaz/miniB)
 
