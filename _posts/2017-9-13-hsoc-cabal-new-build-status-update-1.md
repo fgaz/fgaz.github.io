@@ -40,7 +40,7 @@ With these commands, `new-build` only lacks `new-install`.
 Data-files are additional files to be included in a package distribution
 (be it a sdist, a debian package or the store itself). They are used when including
 the data in the executable itself (eg. with a literal string or even
-a picture using [file-embed](http://hackage.haskell.org/package/file-embed))
+a picture using [file-embed](https://hackage.haskell.org/package/file-embed))
 is not feasible or not practical.
 
 The path to the data-files is hardcoded at compile-time (the `--datadir` flag),

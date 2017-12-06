@@ -29,7 +29,7 @@ Calendar scraper for unitn.it
 
 [Constantly updated iCal files](http://unitncal.fgaz.me)
 
-[Github](http://github.com/fgaz/unitncal)
+[Github](https://github.com/fgaz/unitncal)
 
 ### polyvariadic
 
@@ -61,7 +61,7 @@ Audio per il Test della Navetta di Léger (o Beep Test)
 
 [Sito](http://fgaz.github.io/beeptest)
 
-[Github](http://github.com/fgaz/beeptest)
+[Github](https://github.com/fgaz/beeptest)
 
 ### servant-iCalendar
 
@@ -78,15 +78,15 @@ Servant support for iCalendar
 
 Yet Anonher Brainfuck Interpreter
 
-[Github](http://github.com/fgaz/yabi)
+[Github](https://github.com/fgaz/yabi)
 
-[Hackage](http://hackage.haskell.org/package/yabi)
+[Hackage](https://hackage.haskell.org/package/yabi)
 
 ### experiments
 
 Various experiments and puzzles
 
-[Github](http://github.com/fgaz/experiments)
+[Github](https://github.com/fgaz/experiments)
 
 ### emojiid
 
@@ -97,7 +97,7 @@ Deterministically assign an emoji to a user/machine pair
 ### pure-html-calc
 A pure HTML calculator. No css or javascript.
 
-[Github](http://github.com/fgaz/pure-html-calc/)
+[Github](https://github.com/fgaz/pure-html-calc/)
 
 [Live demo](http://fgaz.me/pure-html-calc/)
 
@@ -105,15 +105,15 @@ A pure HTML calculator. No css or javascript.
 
 "Hack" like a programmer in movies and games! Inspired by http://hackertyper.net
 
-[Github](http://github.com/fgaz/hackertyper)
+[Github](https://github.com/fgaz/hackertyper)
 
-[Hackage](http://hackage.haskell.org/package/hackertyper)
+[Hackage](https://hackage.haskell.org/package/hackertyper)
 
 ### haskell-morse
 
 An as-short-as-possible (but still readable) morse encoder and decoder in haskell inspired by [this thread](http://www.reddit.com/r/programming/comments/7xjqb/who_can_write_the_smallesttidiestcleverest_morse/).
 
-[Github](http://github.com/fgaz/haskell-morse)
+[Github](https://github.com/fgaz/haskell-morse)
 
 
 ## *Horrible things*
@@ -124,9 +124,9 @@ An as-short-as-possible (but still readable) morse encoder and decoder in haskel
 
 A simple configuration library
 
-[Github](http://github.com/fgaz/SConfig)
+[Github](https://github.com/fgaz/SConfig)
 
-[Hackage](http://hackage.haskell.org/package/SConfig)
+[Hackage](https://hackage.haskell.org/package/SConfig)
 
 ### miniB
 
@@ -134,5 +134,5 @@ A single-thread minimal imageboard written in python.
 
 [Live demo](http://minib-effegi.rhcloud.com)
 
-[Github](http://github.com/fgaz/miniB)
+[Github](https://github.com/fgaz/miniB)
 

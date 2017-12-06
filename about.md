@@ -8,7 +8,7 @@ I'm Francesco Gazzetta, a student of computer science from Treviso, Italy. I enj
 
 You can contact me on a variety of services:
 
-* Email: [Click here to reveal](http://www.google.com/recaptcha/mailhide/d?k=01hzEQ2ov01YnR-kA-9bNmyA==&c=kzKHbr8z3KNdB2orZtMpB5YCMACi_MNAOdJp6UQeSHA=) or evaluate rot13("senapltnmmNGtznvyQBGpbz") (sorry, keeping it in cleartext causes too much spam)
+* Email: [Click here to reveal](https://www.google.com/recaptcha/mailhide/d?k=01hzEQ2ov01YnR-kA-9bNmyA==&c=kzKHbr8z3KNdB2orZtMpB5YCMACi_MNAOdJp6UQeSHA=) or evaluate rot13("senapltnmmNGtznvyQBGpbz") (sorry, keeping it in cleartext causes too much spam)
 * Telegram: [@fgaz0](https://telegram.me/fgaz0) (I know, proprietary server...)
 * IRC: fgaz on freenode (I may miss some messages if my bouncer goes offline)
 * Matrix: fgaz@matrix.org (rarely online)
@@ -16,5 +16,5 @@ You can contact me on a variety of services:
 * Keybase: [@fgaz](https://keybase.io/fgaz)
 * Reddit: [/u/fgaz\_](https://reddit.com/u/fgaz_)
 * Twitter: [@fgaz\_](https://twitter.com/fgaz_)
-* Facebook: [gazzetta.francesco](http://facebook.com/gazzetta.francesco/)
+* Facebook: [gazzetta.francesco](https://facebook.com/gazzetta.francesco/)
 
