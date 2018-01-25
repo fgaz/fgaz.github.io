@@ -4,6 +4,7 @@ comments: true
 language: italian
 title: Traduttore di codice morse in Haskell
 tags: [haskell,morse,code golf]
+image: /public/assets/morse-code-graph.png
 ---
 
 Qualche tempo fa ho trovato su /r/programming [questo vecchio thread](https://www.reddit.com/r/programming/comments/7xjqb/who_can_write_the_smallesttidiestcleverest_morse/) con un interessante esercizio di programmazione. La richiesta era in apparenza molto semplice:
