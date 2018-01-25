@@ -164,6 +164,12 @@ $ source /usr/local/etc/profile.d/nix.sh # enable nix
 $ echo 'source /usr/local/etc/profile.d/nix.sh' >> ~/.bash_profile # automatically enable nix for future sessions too
 ```
 
+### Updating the channels
+
+```
+$ nix-channel --update
+```
+
 ## Now let's try it
 
 If you followed all the steps you should now have a working nix installation!
