@@ -4,6 +4,7 @@ comments: true
 language: english
 title: "Haskell Summer of Code 2017: Last Mile for `cabal new-build`: first and last status update"
 tags: [haskell,cabal,hsoc,new-build]
+image: https://www.haskell.org/cabal/images/Cabal-dark.png
 ---
 
 Time flies! The Haskell Summer of Code is over, and this is my first and last
