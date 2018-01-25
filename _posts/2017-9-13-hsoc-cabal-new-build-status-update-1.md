@@ -251,7 +251,9 @@ You only need to worry about this if you use both pre- and post-2.0 new-build
 in the same project though. While pre-2.0 puts the executables in
 `dist-newstyle/build/package-id/build/exe/exe`,
 post-2.0 puts them in
-`dist-newstyle/build/os/compiler/package-id/build/exe/exe`.
+~~`dist-newstyle/build/os/compiler/package-id/build/exe/exe`~~
+edit: this may change again before new-build becomes the default,
+so just look it up in the docs or in your dist* folder.
 
 ## Good things
 
