@@ -136,7 +136,7 @@ $ devel-su
 # chown nemo:nemo /nix
 ```
 
-`/nix` is about to get _very_ big, so if you gave a btrfs or ext4-formatted SD card it's better to use it
+`/nix` is about to get _very_ big, so if you have a btrfs or ext4-formatted SD card it's better to use it
 
 ```
 $ mkdir /media/sdcard/<your SD card name>/nix
