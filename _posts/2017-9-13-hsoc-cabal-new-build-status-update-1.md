@@ -10,7 +10,7 @@ image: https://www.haskell.org/cabal/images/Cabal-dark.png
 Time flies! The Haskell Summer of Code is over, and this is my first and last
 status update. Last in the HSoC, but not in the project, as you'll see.
 
-My goal was to bring `new-build` to a usable state, to eventually replace
+My goal was to bring `cabal-install`'s `new-build` to a usable state, to eventually replace
 the old commands.
 
 ## What has been done
