@@ -7,7 +7,7 @@ tags: [nix,nixos,Jolla,Jolla Phone,Sailfish OS,tutorial]
 image: /public/assets/nix-on-sailfish.png
 ---
 
-I recently managed to make the [nix package manager](https://nixos.org/nix/) work on my [Jolla 1](https://en.wikipedia.org/wiki/Jolla_(smartphone\)) phone. nixos.org only provides precompiled nix binaries and a binary cache for packages for the x86_64, armv8[^sfosx] and some others, but not for armv7 (the architecture of the Jolla Phone's processor), so some compiling was necessary (and some patching too).
+I recently managed to make the [nix package manager](https://nixos.org/nix/) work on my [Jolla 1](https://en.wikipedia.org/wiki/Jolla_%28smartphone%29) phone. nixos.org only provides precompiled nix binaries and a binary cache for packages for the x86_64, armv8[^sfosx] and some others, but not for armv7 (the architecture of the Jolla Phone's processor), so some compiling was necessary (and some patching too).
 
 This post is a summary of what I did.
 Unfortunately I forgot to write down the exact steps, so forgive me (and [tell me](/about)!) if some steps are missing or incomplete.
@@ -181,4 +181,4 @@ $ nix-shell -p neofetch
 Perfect!
 
 [^sfosx]: So if you have eg. an xperia x you can just `curl https://nixos.org/nix/install | sh` and it will all work (with a full binary cache too!).
-[^biggerpackages] If someone wants to help me setup a hydra for armv7 / help compile some bigger packages (like GHC) just [contact me](/about)!
+[^biggerpackages]: If someone wants to help me setup a hydra for armv7 / help compile some bigger packages (like GHC) just [contact me](/about)!
