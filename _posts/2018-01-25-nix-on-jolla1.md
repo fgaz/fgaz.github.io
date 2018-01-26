@@ -12,6 +12,12 @@ I recently managed to make the [nix package manager](https://nixos.org/nix/) wor
 This post is a summary of what I did.
 Unfortunately I forgot to write down the exact steps, so forgive me (and [tell me](/about)!) if some steps are missing or incomplete.
 
+EDIT: At the time of writing, cross compilation is broken, but if you are reading this from the future you may be able to skip all this and simply cross compile nix with the following command (thanks Infinisil, Sonarpulse and LnL):
+
+```
+$ nix-build '<nixpkgs>' --arg crossSystem '(import <nixpkgs/lib>).systems.examples.armv7l-hf-multiplatform' -A nix
+```
+
 ## Installing nix
 
 This is all done from the terminal, so open it, or better yet open an ssh connection from your computer to your phone.
