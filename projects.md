@@ -45,7 +45,7 @@ Some styles for the `identicon` package
 
 [Github](https://github.com/fgaz/identicon-styles)
 
-[not yet on Hackage]()
+Hackage: [squares](https://hackage.haskell.org/package/identicon-style-squares) - [shapes]()
 
 ### webpager
 
