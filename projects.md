@@ -115,6 +115,8 @@ An as-short-as-possible (but still readable) morse encoder and decoder in haskel
 
 [Github](https://github.com/fgaz/haskell-morse)
 
+[Blog post](/posts/2014-12-05-morse-translator-haskell/)
+
 
 ## *Horrible things*
 
