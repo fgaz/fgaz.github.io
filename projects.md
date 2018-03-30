@@ -84,7 +84,7 @@ Paste a youtube url and get the video pasted by the previous visitor. Mystery!
 
 ### yabi
 
-Yet Anonher Brainfuck Interpreter
+Yet Another Brainfuck Interpreter
 
 [Github](https://github.com/fgaz/yabi)
 
