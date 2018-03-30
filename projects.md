@@ -95,6 +95,7 @@ Deterministically assign an emoji to a user/machine pair
 [Github](https://github.com/fgaz/emojiid)
 
 ### pure-html-calc
+
 A pure HTML calculator. No css or javascript.
 
 [Github](https://github.com/fgaz/pure-html-calc/)
