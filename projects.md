@@ -41,7 +41,7 @@ Creation and application of polyvariadic functions
 
 ### identicon-styles
 
-Some styles for the `identicon` package
+Some styles for the [`identicon`](http://hackage.haskell.org/package/identicon) package
 
 [Github](https://github.com/fgaz/identicon-styles)
 
