@@ -74,6 +74,14 @@ Servant support for iCalendar
 
 ## Fun things, experiments
 
+### mysterytube
+
+Paste a youtube url and get the video pasted by the previous visitor. Mystery!
+
+[Github](https://github.com/fgaz/mysterytube/)
+
+[Live at mysterytube.stream](http://mysterytube.stream)
+
 ### yabi
 
 Yet Anonher Brainfuck Interpreter
