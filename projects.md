@@ -90,11 +90,25 @@ Yet Anonher Brainfuck Interpreter
 
 [Hackage](https://hackage.haskell.org/package/yabi)
 
+### dual
+
+Network multiplayer 2D shooting game
+
+[Github](https://github.com/fgaz/dual)
+
+[Hackage](https://hackage.haskell.org/package/dual-game)
+
 ### experiments
 
 Various experiments and puzzles
 
 [Github](https://github.com/fgaz/experiments)
+
+### art
+
+Art.
+
+[Github](https://github.com/fgaz/art)
 
 ### emojiid
 
