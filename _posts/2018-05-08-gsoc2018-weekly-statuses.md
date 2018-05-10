@@ -4,7 +4,7 @@ comments: true
 language: english
 title: GSoC 2018 weekly statuses
 tags: [haskell,gsoc,2018,google summer of code,status,cabal,multiple libraries]
-image: /public/assets/gsoc-logo.svg
+image: /public/assets/gsoc-logo-square.png
 ---
 
 **I will update this post every week or two with my current status.
