@@ -1,0 +1,34 @@
+---
+layout: default
+title: Blog posts archive
+tags: [fgaz,blog,archive]
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="post-preview"
+    {% case post.language %}
+      {% when 'italian' %}
+        xml:lang="it" lang="it-it"
+      {% when 'english' %}
+        xml:lang="en" lang="en-us"
+    {% endcase %}
+  >
+    <h2 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    {% if post.comments %}
+      <div class="post-comments" style="margin-bottom: 10px;"><a href="{{ post.url }}#disqus_thread">comments</a></div>
+    {% endif %}
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.excerpt }}
+    <p><a href="{{ post.url }}">…</a></p>
+  </div>
+  {% endfor %}
+</div>
+
