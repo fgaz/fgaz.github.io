@@ -8,7 +8,7 @@ image: /public/assets/gsoc-logo-square.png
 ---
 
 **I will update this post every week or two with my current status.
-See also https://github.com/haskell/cabal/projects/5**
+See also [github.com/haskell/cabal/projects/5](https://github.com/haskell/cabal/projects/5)**
 
 ## Updates
 
