@@ -33,10 +33,13 @@ effect.
 * Added a `public :: Bool` field to the library stanza
 * Working on modifying the `Dependency` datatype
   from `Dependency PackageName VersionRange`
-  to `Dependency PackageName VersionRange [UnqualComponentName]`
-  * Working on adding a temporary syntax for named library selection
+  to ~~`Dependency PackageName VersionRange [UnqualComponentName]`~~
+  `Dependency PackageName VersionRange (Set UnqualComponentName)`
+  * Added a temporary syntax for named library selection
     (see [#4206](https://github.com/haskell/cabal/issues/4206)
     for syntax discussion)
+    `build-depends: pkgname versionRange {library1,library2}`
+* Testing for regressions in `Cabal`
 
 ---
 
