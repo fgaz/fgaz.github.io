@@ -10,6 +10,8 @@ image: /public/assets/gsoc-logo-square.png
 **I will update this post every week or two with my current status.
 See also [github.com/haskell/cabal/projects/5](https://github.com/haskell/cabal/projects/5)**
 
+I'm pushing the code on the [multiple-libraries](https://github.com/fgaz/cabal/tree/multiple-libraries) branch on my fork of the cabal repo.
+
 ## Updates
 
 ### Community bonding period
