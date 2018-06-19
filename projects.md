@@ -122,7 +122,7 @@ A pure HTML calculator. No css or javascript.
 
 [Github](https://github.com/fgaz/pure-html-calc/)
 
-[Live demo](http://fgaz.me/pure-html-calc/)
+[Live demo](http://fgaz.github.io/pure-html-calc/)
 
 ### hackertyper
 
