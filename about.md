@@ -11,7 +11,7 @@ You can contact me on a variety of services:
 * Email: my username @ my domain
 * Telegram: <a rel="me" href="https://telegram.me/fgaz0">@fgaz0</a> (I know, proprietary server...)
 * IRC: <a rel="me" href="irc://chat.freenode.net/fgaz,isnick">fgaz on freenode</a> (I may miss some messages if my bouncer goes offline)
-* Matrix: <a rel="me" href=https://matrix.to/#/@fgaz:matrix.org">@fgaz:matrix.org</a>
+* Matrix: <a rel="me" href="https://matrix.to/#/@fgaz:matrix.org">@fgaz:matrix.org</a>
 * Tox: <a rel="me" href="tox:C3CAB644155FA4C95B87FE7F67704EEE30E616623BF7D794BCE54E4C7B640B04B24F7832CA2D">C3CAB644155FA4C95B87FE7F67704EEE30E616623BF7D794BCE54E4C7B640B04B24F7832CA2D</a> (rarely online)
 * GitHub: <a rel="me" href="https://github.com/fgaz">@fgaz</a>
 * Keybase: <a rel="me" href="https://keybase.io/fgaz">@fgaz</a>
