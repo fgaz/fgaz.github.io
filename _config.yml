@@ -21,7 +21,7 @@ paginate:         5
 
 # Custom vars
 # usabili con {{ site.var }}
-github:           'https://github.com/fgaz/'
+github:           'https://github.com/fgaz'
 
 defaults:
     values:
