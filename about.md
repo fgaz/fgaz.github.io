@@ -16,6 +16,8 @@ You can contact me on a variety of services:
 * GitHub: <a rel="me" href="https://github.com/fgaz">@fgaz</a>
 * Keybase: <a rel="me" href="https://keybase.io/fgaz">@fgaz</a>
 * Reddit: <a rel="me" href="https://reddit.com/u/fgaz_">/u/fgaz\_</a>
+* Mastodon: <a rel="me" href="https://mastodon.social/@fgaz">@fgaz@mastodon.social</a>
+* Pleroma: <a rel="me" href="https://pleroma.site/users/42981">@fgaz@pleroma.site</a>
 * Twitter: <a rel="me" href="https://twitter.com/fgaz_">@fgaz\_</a>
 * Facebook: <a rel="me" href="https://facebook.com/gazzetta.francesco/">gazzetta.francesco</a>
 
