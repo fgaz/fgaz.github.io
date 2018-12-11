@@ -13,17 +13,23 @@ See also [github.com/haskell/cabal/projects/5](https://github.com/haskell/cabal/
 <del>
 I'm pushing the code on the [multiple-libraries](https://github.com/fgaz/cabal/tree/multiple-libraries) branch on my fork of the cabal repo.
 
-## Updates
+## <del>Updates</del>
 
-### Community bonding period
+### <del>Community bonding period</del>
+
+<del>
 
 * Some initial planning
 * Reading [#3022](https://github.com/haskell/cabal/pull/3022) and experimenting
   with the code
 
-### Coding period
+</del>
 
-#### First week
+### <del>Coding period</del>
+
+#### <del>First week</del>
+
+<del>
 
 This was the first time I really dwelt into the `Cabal` code,
 as I previously mostly worked on `cabal`-the-tool.
@@ -42,8 +48,11 @@ effect.
     `build-depends: pkgname versionRange {library1,library2}`
 * Testing for regressions in `Cabal`
 
+</del>
+
 ---
 
+<del>
 Check back for more!
 </del>
 
