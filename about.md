@@ -17,6 +17,7 @@ You can find/contact me on a variety of services:
 * Code
   * GitHub: <a rel="me" href="https://github.com/fgaz">@fgaz</a>
   * Hackage: <a rel="me" href="https://hackage.haskell.org/user/fgaz">fgaz</a>
+  * Repology: <a rel="me" href="https://repology.org/maintainer/francygazz%40gmail.com">maintainer profile</a>
 * Social
   * Reddit: <a rel="me" href="https://reddit.com/u/fgaz_">/u/fgaz\_</a>
   * Mastodon: <a rel="me" href="https://mastodon.social/@fgaz">@fgaz@mastodon.social</a>
