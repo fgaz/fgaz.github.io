@@ -16,6 +16,7 @@ You can find/contact me on a variety of services:
   * Tox: <a rel="me" href="tox:C3CAB644155FA4C95B87FE7F67704EEE30E616623BF7D794BCE54E4C7B640B04B24F7832CA2D">C3CAB644155FA4C95B87FE7F67704EEE30E616623BF7D794BCE54E4C7B640B04B24F7832CA2D</a> (rarely online)
 * Code
   * GitHub: <a rel="me" href="https://github.com/fgaz">@fgaz</a>
+  * sr.ht: <a rel="me" href="https://git.sr.ht/~fgaz">~fgaz</a>
   * Hackage: <a rel="me" href="https://hackage.haskell.org/user/fgaz">fgaz</a>
   * Repology: <a rel="me" href="https://repology.org/maintainer/francygazz%40gmail.com">maintainer profile</a>
 * Social
