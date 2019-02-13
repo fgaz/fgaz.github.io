@@ -9,7 +9,7 @@ I'm Francesco Gazzetta, a student of computer science from Treviso, Italy. I enj
 You can find/contact me on a variety of services:
 
 * Messaging
-  * Email: my username @ my domain
+  * Email: <a rel="me" href="mailto:fgaz@fgaz.me">fgaz@fgaz.me</a>
   * Telegram: <a rel="me" href="https://telegram.me/fgaz0">@fgaz0</a> (I know, proprietary server...)
   * IRC: <a rel="me" href="irc://chat.freenode.net/fgaz,isnick">fgaz on freenode</a> (I may miss some messages if my bouncer goes offline)
   * Matrix: <a rel="me" href="https://matrix.to/#/@fgaz:matrix.org">@fgaz:matrix.org</a>
