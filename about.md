@@ -21,8 +21,8 @@ You can find/contact me on a variety of services:
   * Repology: <a rel="me" href="https://repology.org/maintainer/fgaz%40fgaz.me">maintainer profile</a>
 * Social
   * Reddit: <a rel="me" href="https://reddit.com/u/fgaz_">/u/fgaz\_</a>
-  * Mastodon: <a rel="me" href="https://mastodon.social/@fgaz">@fgaz@mastodon.social</a>
-  * Pleroma: <a rel="me" href="https://pleroma.site/users/42981">@fgaz@pleroma.site</a>
+  * Pleroma: <a rel="me" href="https://pleroma.site/users/42981">@fgaz@pleroma.site</a> (preferred ActivityPub account)
+  * Mastodon: <a rel="me" href="https://mastodon.social/@fgaz">@fgaz@mastodon.social</a> (prefer the pleroma account above)
   * Twitter: <a rel="me" href="https://twitter.com/fgaz_">@fgaz\_</a>
   * Facebook: <a rel="me" href="https://facebook.com/gazzetta.francesco/">gazzetta.francesco</a>
 * Misc
