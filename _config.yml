@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        /posts/:year-:month-:day-:title/
 
 # Setup
-title:            FGaz
+title:            fgaz
 tagline:          'Home'
 description:      "Personal website of Francesco Gazzetta (fgaz), a student of computer science from Italy"
 url:              //fgaz.me
