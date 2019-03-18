@@ -71,6 +71,20 @@ Servant support for iCalendar
 
 [Hackage](https://hackage.haskell.org/package/servant-iCalendar)
 
+### nur-packages-template
+
+A template for [NUR](https://github.com/nix-community/NUR) repositories
+
+[Github](https://github.com/nix-community/nur-packages-template)
+
+### nur-packages
+
+My [NUR](https://github.com/nix-community/NUR) packages
+
+[Github](https://github.com/fgaz/nur-packages)
+
+[Package list](https://nix-community.github.io/nur-search/repos/fgaz/)
+
 
 ## Fun things, experiments
 
