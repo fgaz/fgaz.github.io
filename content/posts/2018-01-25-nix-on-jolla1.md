@@ -196,4 +196,6 @@ $ nix-shell -p neofetch
 Perfect!
 
 [^sfosx]: So if you have eg. an xperia x you can just `curl https://nixos.org/nix/install | sh` and it will all work (with a full binary cache too!).
+
 [^biggerpackages]: If someone wants to help me setup a hydra for armv7 / help compile some bigger packages (like GHC) just [contact me](/about)!
+

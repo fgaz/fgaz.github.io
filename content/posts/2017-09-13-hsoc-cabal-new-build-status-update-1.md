@@ -306,5 +306,8 @@ and any others who helped me along the way.
 
 
 [^pipes]: This deserves a `pipes` pun
+
 [^conflicts]: [Well, even when i did...](https://xkcd.com/1597/)
+
 [^bait]: I'm beginning to suspect that the Haskell Summer of Code is just an evil scheme to lure some poor students to become permanent contributors to the Haskell ecosystem ;)
+

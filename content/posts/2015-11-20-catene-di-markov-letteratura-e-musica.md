@@ -67,4 +67,3 @@ Chi ha in mente qualche testo da analizzare lo scriva pure nei commenti, i risul
 
 [^lenny]: :^)
 
-
