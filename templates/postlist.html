@@ -1,0 +1,35 @@
+{% extends "default.html" %}
+
+{% block main %}
+<h1>Blog posts archive</h1>
+<div class="posts">
+  {% for post in section.pages | sort(attribute="date") | reverse %}
+  <div class="post-preview"
+    {% if post.extra.language == 'italian' %}
+      xml:lang="it" lang="it-it"
+    {% elif post.extra.language == 'english' %}
+      xml:lang="en" lang="en-us"
+    {% endif %}
+  >
+    <h2 class="post-title">
+      <a href="{{ post.permalink }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    {% if post.comments %}
+      <div class="post-comments" style="margin-bottom: 10px;"><a href="{{ post.url }}#comments">comments</a></div>
+    {% endif %}
+
+    <time datetime="{{ post.date }}">{{ post.date }}</time>
+
+    <span>Reading time: {{ post.reading_time }} minutes</span>
+
+    {{ post.summary | safe}}
+
+    <p><a href="{{ post.permalink }}#continue-reading">Continue reading…</a></p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
+

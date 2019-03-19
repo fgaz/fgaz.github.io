@@ -1,0 +1,38 @@
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta charset="utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    {% if page.title %}
+      {% if page.title == "Home" %}
+        {{ config.title }} &middot; Home
+      {% else %}
+        {{ page.title }} &middot; {{ config.title }}
+      {% endif %}
+    {% elif section.title %}
+      {{ section.title }} &middot; {{ config.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ config.base_url }}/main.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ config.base_url }}public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="{{ config.base_url }}public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+
+  <!-- extra meta tags -->
+  <meta name="theme-color" content="#6a9fb5"> <!-- some browsers change color based on this -->
+  {% if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join(sep=', ') | escape }}"/>
+  {% endif %}
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate(length=160) }}{% else %}{{ config.description }}{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ config.base_url }}public/favicon.png{% endif %}">
+</head>
+

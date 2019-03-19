@@ -1,0 +1,13 @@
+base_url = "https://fgaz.me"
+
+title = "fgaz"
+description = "Personal website of Francesco Gazzetta (fgaz), a student of computer science from Italy"
+default_language = "en"
+
+highlight_code = true
+generate_rss = true
+compile_sass = true
+
+[extra]
+github = "https://github.com/fgaz"
+

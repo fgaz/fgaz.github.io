@@ -1,0 +1,73 @@
+$spacing: 0.5em
+$horizontal-rule: 1px solid #bbb
+
+//readability
+html
+  font-family: sans-serif
+  font-size: 18px
+  line-height: 1.6
+  word-wrap: break-word // break long words/urls (like the tox id)
+
+body
+  max-width: 650px
+  margin: 0 auto
+  padding: 0 $spacing
+
+time
+  font-style: italic
+
+header, footer
+  padding: $spacing 0
+  p, h1, h2
+    margin: 0
+
+// hide long lines
+pre
+  overflow-x: scroll
+
+
+// Misc
+
+header
+  border-bottom: $horizontal-rule
+
+nav
+  text-align: right
+  a
+    margin-left: $spacing
+
+footer
+  border-top: $horizontal-rule
+
+article
+  margin: $spacing 0
+
+a
+  color: blue
+a:visited
+  color: darkviolet
+
+// make the site title smaller
+header h1
+  font-size: 1.5em
+
+
+// Figures
+figure
+  display: table
+  border: 1px solid lightgray
+
+figcaption
+  display: table-caption
+  caption-side: bottom
+  border-bottom: 1px solid gray
+  border-right: 1px solid gray
+  border-left: 1px solid gray
+  background-color: #f5f5f5
+  padding: 0.5em
+  text-align: center
+
+figure > img
+  display: block;
+  max-width: 100%
+

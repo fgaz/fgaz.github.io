@@ -1,17 +1,22 @@
----
-layout: post
-comments: true
-language: english
-title: "Haskell Summer of Code 2017: Last Mile for `cabal new-build`: first and last status update"
-tags: [haskell,cabal,hsoc,new-build]
-image: https://www.haskell.org/cabal/images/Cabal-dark.png
----
++++
+title = "Haskell Summer of Code 2017: Last Mile for `cabal new-build`: first and last status update"
+slug = "2017-09-13-hsoc-cabal-new-build-status-update-1"
+aliases = [ "2017-9-13-hsoc-cabal-new-build-status-update-1" ]
+
+[extra]
+comments = true
+language = "english"
+tags = ["haskell", "cabal", "hsoc", "new-build"]
+image = "https://www.haskell.org/cabal/images/Cabal-dark.png"
++++
 
 Time flies! The Haskell Summer of Code is over, and this is my first and last
 status update. Last in the HSoC, but not in the project, as you'll see.
 
 My goal was to bring `cabal-install`'s `new-build` to a usable state, to eventually replace
 the old commands.
+
+<!-- more -->
 
 ## What has been done
 

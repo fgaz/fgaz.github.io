@@ -1,8 +1,10 @@
----
-layout: page
-title: About
-tags: [about,contact,fgaz,Francesco Gazzetta]
----
++++
+template = "page.html"
+title = "About"
+
+[extra]
+tags = ["about", "contact", "fgaz", "Francesco Gazzetta"]
++++
 
 I'm Francesco Gazzetta, a student of computer science from Treviso, Italy. I enjoy programming, hiking, photographing<del>, and keeping this blog up-to-date</del>.
 

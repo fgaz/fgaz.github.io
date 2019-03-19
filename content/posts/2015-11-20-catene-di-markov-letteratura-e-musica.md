@@ -1,12 +1,16 @@
----
-layout: post
-comments: true
-language: italian
-title: Catene di Markov, letteratura e musica
-tags: [markov,text processing,experiment,haskell]
----
++++
+title = "Catene di Markov, letteratura e musica"
+slug = "2015-11-20-catene-di-markov-letteratura-e-musica"
+
+[extra]
+comments = true
+language = "italian"
+tags = ["markov", "text processing", "experiment", "haskell"]
++++
 
 Frugando nella cartella dei miei vecchi progetti ho ritrovato [un esperimento che ho fatto circa un anno fa](https://github.com/fgaz/markov) (e che avrei dovuto postare) sulle catene di Markov.
+
+<!-- more -->
 
 Data una sequenza di oggetti (parole, numeri, note...) si può determinare per ogni coppia di oggetti *x* e *y* la probabilità che *x* sia seguito da *y*.
 Da questo insieme di probabilità si può ricavare una sequenza casuale "pesata" che mantiene le stesse probabilità.
