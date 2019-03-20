@@ -6,9 +6,9 @@
   {% for post in section.pages | sort(attribute="date") | reverse %}
   <div class="post-preview"
     {% if post.extra.language == 'italian' %}
-      xml:lang="it" lang="it-it"
+      xml:lang="it-it" lang="it-it"
     {% elif post.extra.language == 'english' %}
-      xml:lang="en" lang="en-us"
+      xml:lang="en-us" lang="en-us"
     {% endif %}
   >
     <h2 class="post-title">
