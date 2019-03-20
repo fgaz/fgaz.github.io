@@ -28,6 +28,10 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
 
   <!-- extra meta tags -->
+  {# Let the browser know the canonical url of the page #}
+  {% if page.permakink %}
+    <link rel="bookmark" href="{{ page.permalink | safe }}" />
+  {% endif %}
   <meta name="theme-color" content="#6a9fb5"> <!-- some browsers change color based on this -->
   {% if page.tags %}
     <meta name="keywords" content="{{ page.tags | join(sep=', ') | escape }}"/>
