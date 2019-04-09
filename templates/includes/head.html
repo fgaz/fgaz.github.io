@@ -39,6 +39,6 @@
     <meta name="keywords" content="{{ page.tags | join(sep=', ') | escape }}"/>
   {% endif %}
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate(length=160) }}{% else %}{{ config.description }}{% endif %}">
-  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ config.base_url }}public/favicon.png{% endif %}">
+  <meta property="og:image" content="{% if page.extra.image %}{{ page.extra.image }}{% else %}{{ config.base_url }}public/favicon.png{% endif %}">
 </head>
 
