@@ -7,7 +7,9 @@ language = "italian"
 +++
 
 Ho tentato più di una volta in passato di cominciare una specie di blog.
+
 <!-- more -->
+
 Non sono sicuro di aver mai pensato di avere qualcosa di interessante da dire
 (e di conseguenza non ho mai potuto postare molto),
 ma piuttosto volevo costruire un sito per il gusto di farlo, cosa che probabilmente è vera anche per questo.

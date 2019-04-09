@@ -12,7 +12,9 @@ image = "/public/assets/nix-on-sailfish.png"
 I recently managed to make the [nix package manager](https://nixos.org/nix/) work on my [Jolla 1](https://en.wikipedia.org/wiki/Jolla_%28smartphone%29) phone. nixos.org only provides precompiled nix binaries and a binary cache for packages for the x86_64, AArch64[^sfosx] and some others, but not for armv7 (the architecture of the Jolla Phone's processor), so some compiling was necessary (and some patching too).
 
 This post is a summary of what I did.
+
 <!-- more -->
+
 Unfortunately I forgot to write down the exact steps, so forgive me (and [tell me](/about)!) if some steps are missing or incomplete.
 
 EDIT: At the time of writing, cross compilation is broken, but if you are reading this from the future you may be able to skip all this and simply cross compile nix with the following command (thanks Infinisil, Sonarpulse and LnL):
