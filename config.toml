@@ -9,5 +9,7 @@ generate_rss = true
 compile_sass = true
 
 [extra]
+copyright_holder = "Francesco Gazzetta"
+license = "All rights reserved" # temporary until I decide a foss license
 github = "https://github.com/fgaz"
 

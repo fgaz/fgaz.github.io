@@ -1,4 +1,4 @@
 <footer>
-  <p>&copy; {{ now(utc=true) | date(format='%Y') }}. TODO license here.</p>
+  <p>&copy; {{ config.extra.copyright_holder }} {{ now(utc=true) | date(format='%Y') }}. {{ config.extra.license }}.</p>
 </footer>
 
