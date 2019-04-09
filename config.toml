@@ -1,0 +1,15 @@
+base_url = "https://fgaz.me"
+
+title = "fgaz"
+description = "I am a student of computer science. I build things, and sometimes write here"
+default_language = "en"
+
+highlight_code = true
+generate_rss = true
+compile_sass = true
+
+[extra]
+copyright_holder = "Francesco Gazzetta"
+license = "All rights reserved" # temporary until I decide a foss license
+github = "https://github.com/fgaz"
+

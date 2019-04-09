@@ -1,0 +1,95 @@
+$spacing: 0.5em
+$horizontal-rule: 1px solid #bbb
+
+//colors
+$lightbg: #ddd
+$lightestbg: #f5f5f5
+
+//readability
+html
+  font-family: sans-serif
+  font-size: 1.125em
+  line-height: 1.6
+  word-wrap: break-word // break long words/urls (like the tox id)
+
+body
+  max-width: 40em
+  margin: 0 auto
+  padding: 0 $spacing
+
+time
+  font-style: italic
+
+header, footer
+  padding: $spacing 0
+  p, h1, h2
+    margin: 0
+
+// hide long lines
+pre
+  overflow-x: scroll
+
+
+// Misc
+
+header
+  border-bottom: $horizontal-rule
+
+nav
+  text-align: right
+  a
+    margin-left: $spacing
+
+footer
+  border-top: $horizontal-rule
+
+article
+  margin: $spacing 0
+
+a
+  color: blue
+a:visited
+  color: darkviolet
+
+// make the site title smaller
+header h1
+  font-size: 1.5em
+
+// put number and definition on the same line
+.footnote-definition > p
+  display: inline
+
+.footnote-definition:first-of-type
+  border-top: $horizontal-rule
+  padding-top: $spacing
+
+// do not let big images expand the page
+article img
+  max-width: 100%
+
+// make anchors less annoying
+.heading-anchor, .heading-anchor:visited
+  color: gray
+.heading-anchor:hover
+  color: blue
+
+
+// Figures
+figure
+  display: table
+  border: 1px solid lightgray
+
+$captionborder: 1px solid gray
+figcaption
+  display: table-caption
+  caption-side: bottom
+  border-bottom: $captionborder
+  border-right: $captionborder
+  border-left: $captionborder
+  background-color: $lightestbg
+  padding: $spacing
+  text-align: center
+
+figure > img
+  display: block;
+

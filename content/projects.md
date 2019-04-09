@@ -1,8 +1,10 @@
----
-layout: page
-title: Projects
-tags: [projects,list,works]
----
++++
+template = "page.html"
+title = "Projects"
+
+[extra]
+tags = ["projects", "list", "works"]
++++
 
 
 ## Useful things
