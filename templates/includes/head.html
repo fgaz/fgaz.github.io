@@ -34,7 +34,10 @@
   {% if page.permakink %}
     <link rel="bookmark" href="{{ page.permalink | safe }}" />
   {% endif %}
-  <meta name="theme-color" content="#6a9fb5"> {# some browsers change color based on this #}
+  {# some browsers change color based on this #}
+  {% if config.extra.color %}
+    <meta name="theme-color" content="{{ config.extra.color }}">
+  {% endif %}
   {% if page.extra.tags %}
     <meta name="keywords" content="{{ page.extra.tags | join(sep=', ') | escape }}"/>
   {% endif %}
