@@ -5,7 +5,7 @@ slug = "2019-05-02-cabal-multiple-libraries"
 [extra]
 comments = true
 language = "english"
-tags = ["haskell", "cabal", "hsoc", "multiple public libraries", "multilibs"]
+tags = ["haskell", "cabal", "gsoc", "multiple public libraries", "multilibs"]
 image = "https://www.haskell.org/cabal/images/Cabal-dark.png"
 +++
 
