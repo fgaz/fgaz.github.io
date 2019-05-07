@@ -59,7 +59,7 @@ main (unnamed) library, so you don't need to change existing dependencies.
 
 You can explicitly depend on the main library by using the package name as
 sublibrary name (this is mostly needed when depending on multiple sublibraries,
-see next section):
+see next paragraph):
 
 ```cabal
 executable my-exe
