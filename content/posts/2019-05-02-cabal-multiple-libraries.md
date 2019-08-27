@@ -37,7 +37,8 @@ library sublibname
 ```
 
 {% warn(title="for library authors") %}
-  `cabal-install`'s solver isn't public-library-aware yet, and will happily
+  `cabal-install`'s solver isn't public-library-aware yet, and until
+  [#6047](https://github.com/haskell/cabal/pull/6047) is merged it will happily
   choose to depend on a private library if it falls within the specified
   version range, so remember that making a library private is a **breaking**
   change, much like removing a function or module, and thus requires a
@@ -75,7 +76,8 @@ executable my-exe
 ```
 
 {% warn(title="for all developers when depending on an external sublibrary") %}
-  `cabal-install`'s solver isn't public-library-aware yet, and will happily
+  `cabal-install`'s solver isn't public-library-aware yet, and until
+  [#6047](https://github.com/haskell/cabal/pull/6047) is merged it will happily
   choose to depend on a private library if it falls within the specified
   version range, so remember to specify
   [correct version bounds](https://pvp.haskell.org/)
