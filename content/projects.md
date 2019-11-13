@@ -27,9 +27,9 @@ FRP interface for shine
 
 ### unitncal
 
-Calendar scraper for unitn.it
+iCal/.ics feed link generator for lecture calendars from unitn.it
 
-[Constantly updated iCal files](http://unitncal.fgaz.me)
+[iCal link generator](http://unitncal.fgaz.me)
 
 [Github](https://github.com/fgaz/unitncal)
 
