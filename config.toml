@@ -10,7 +10,7 @@ compile_sass = true
 
 [extra]
 copyright_holder = "Francesco Gazzetta"
-license = "All rights reserved" # temporary until I decide a foss license
+license = "" # temporary all rights reserved until I decide a foss license
 color = "#6a9fb5"
 github = "https://github.com/fgaz"
 
