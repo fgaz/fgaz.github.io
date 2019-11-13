@@ -3,7 +3,7 @@
     <strong>&#9888; Warning</strong>{% if title %} - {{ title }}{% endif %}
   </div>
   <div class="titledboxbody">
-    {{ body | markdown }}
+    {{ body | markdown | safe }}
   </div>
 </div>
 
