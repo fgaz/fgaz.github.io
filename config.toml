@@ -4,7 +4,7 @@ title = "fgaz"
 description = "I am a student of computer science. I build things, and sometimes write here"
 default_language = "en"
 
-highlight_code = true
+highlight_code = false
 generate_rss = true
 compile_sass = true
 
