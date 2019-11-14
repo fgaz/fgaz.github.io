@@ -44,5 +44,26 @@
   {% endif %}
   <meta name="description" content="{% if page.summary %}{{ page.summary | safe | striptags | replace(from="\n", to=" ") | truncate(length=160) }}{% else %}{{ config.description }}{% endif %}">
   <meta property="og:image" content="{% if page.extra.image %}{{ page.extra.image | safe }}{% else %}{{ config.base_url | safe }}public/favicon.png{% endif %}">
+
+  {# TODO deduplicate this mess #}
+  {# Yes, the following is a public comment #}
+  <!-- And here's a bunch of garbage redundant tags just because twitter can't even use the standard ones -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@fgaz_" />
+  <meta name="twitter:description" content="{% if page.summary %}{{ page.summary | safe | striptags | replace(from="\n", to=" ") | truncate(length=160) }}{% else %}{{ config.description }}{% endif %}" />
+  <meta name="twitter:image:src" content="{% if page.extra.image %}{{ page.extra.image | safe }}{% else %}{{ config.base_url | safe }}public/favicon.png{% endif %}" />
+  <meta property="twitter:title" content="
+    {% if page.title %}
+      {% if page.title == "Home" %}
+        {{ config.title }} &middot; Home
+      {% else %}
+        {{ page.title }} &middot; {{ config.title }}
+      {% endif %}
+    {% elif section.title %}
+      {{ section.title }} &middot; {{ config.title }}
+    {% else %}
+      {{ config.title }}
+    {% endif %}
+  "/>
 </head>
 
