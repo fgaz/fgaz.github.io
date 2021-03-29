@@ -26,7 +26,6 @@ You can find/contact me on a variety of services:
   * Pleroma: <a rel="me" href="https://pleroma.site/fgaz">@fgaz@pleroma.site</a> (preferred ActivityPub account)
   * Mastodon: <a rel="me" href="https://mastodon.social/@fgaz">@fgaz@mastodon.social</a> (prefer the pleroma account above)
   * Twitter: <a rel="me" href="https://twitter.com/fgaz_">@fgaz\_</a>
-  * Facebook: <a rel="me" href="https://facebook.com/gazzetta.francesco/">gazzetta.francesco</a>
 * Misc
   * Keybase: <a rel="me" href="https://keybase.io/fgaz">@fgaz</a>
 
