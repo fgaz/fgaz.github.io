@@ -21,6 +21,7 @@ You can find/contact me on a variety of services:
   * sr.ht: <a rel="me" href="https://git.sr.ht/~fgaz">~fgaz</a>
   * Hackage: <a rel="me" href="https://hackage.haskell.org/user/fgaz">fgaz</a>
   * Repology: <a rel="me" href="https://repology.org/maintainer/fgaz%40fgaz.me">maintainer profile</a>
+  * OpenHub (stats): <a rel="me" href="https://www.openhub.net/accounts/fgaz">fgaz</a>
 * Social
   * Reddit: <a rel="me" href="https://reddit.com/u/fgaz_">/u/fgaz\_</a>
   * Pleroma: <a rel="me" href="https://cdrom.tokyo/fgaz">@fgaz@cdrom.tokyo</a> (preferred ActivityPub account)
