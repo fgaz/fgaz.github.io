@@ -33,7 +33,7 @@ two concerns, and prevents redundant work and potential inconsistencies.
 To use the multiple public libraries feature you need at minimum
 Cabal&gt;=3.0.0.0 **and** GHC&gt;=8.8[^old-ghc].
 
-{% warn(title="Multiple public libraries in cabal&lt;3.8 are buggy!") %}
+{% warn(title="Multiple public libraries in cabal<3.8 are buggy!") %}
 Many of the bugs listed at
 https://github.com/haskell/cabal/issues/5660
 are not fixed in cabal&lt;3.8.
@@ -57,8 +57,8 @@ library sublibname
 ```
 
 {% note(title="remember to signal breaking changes") %}
-  `cabal-install`'s solver is aware of public libraries, and `Setup.hs` will
-  give proper errors when trying to depend on a private library, it's still
+  While `cabal-install`'s solver is aware of public libraries, and `Setup.hs`
+  will give proper errors when trying to depend on a private library, it's still
   a good idea to perform a
   [**major version bump**](https://pvp.haskell.org/)
   when changing the visibility
@@ -117,7 +117,7 @@ executable my-exe
 ## Known bugs
 
 Known bugs and missing features are tracked at
-https://github.com/haskell/cabal/issues/5660
+[https://github.com/haskell/cabal/issues/5660](https://github.com/haskell/cabal/issues/5660).
 
 ## Acknowledgements
 
