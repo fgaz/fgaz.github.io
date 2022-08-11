@@ -15,6 +15,8 @@ In this long overdue post I explain why and how to use the feature.
 
 <!-- more -->
 
+2022-08-11: The post was updated in light of the cabal 3.8.1.0 release.
+
 ## Why
 
 Large scale Haskell projects tend to have a problem with lockstep distribution
@@ -28,12 +30,21 @@ two concerns, and prevents redundant work and potential inconsistencies.
 
 ## How
 
-To use the multiple public libraries feature you need Cabal&gt;=3.0.0.0
-**and** GHC&gt;=8.8[^old-ghc].
+To use the multiple public libraries feature you need at minimum
+Cabal&gt;=3.0.0.0 **and** GHC&gt;=8.8[^old-ghc].
+
+{% warn(title="Multiple public libraries in cabal&lt;3.8 are buggy!") %}
+Many of the bugs listed at
+https://github.com/haskell/cabal/issues/5660
+are not fixed in cabal&lt;3.8.
+To avoid problems, if you are using an older version consider upgrading to
+3.8.1.0 or later.
+{% end %}
 
 The feature was introduced with the `.cabal` spec version 3.0, so you'll have to
 have at least `cabal-version: 3.0` in your `.cabal` file.
-If you are starting a new project you can use `cabal init --cabal-version=3.0`.
+If you are starting a new project you can use `cabal init --cabal-version=3.0`
+(or later).
 
 ### Exposing a sublibrary
 
@@ -45,16 +56,13 @@ library sublibname
     visibility: public
 ```
 
-{% warn(title="for library authors") %}
-  `cabal-install`'s solver isn't public-library-aware yet, and until
-  [#6047](https://github.com/haskell/cabal/pull/6047) is merged it will happily
-  choose to depend on a private library if it falls within the
-  specified version range, and then it will fail at the configure step.
-  To keep things working smoothly,
-  remember that making a library private is a **breaking** change,
-  much like removing a function or module,
-  and thus requires a **major version bump**,
-  as per [the PVP](https://pvp.haskell.org/).
+{% note(title="remember to signal breaking changes") %}
+  `cabal-install`'s solver is aware of public libraries, and `Setup.hs` will
+  give proper errors when trying to depend on a private library, it's still
+  a good idea to perform a
+  [**major version bump**](https://pvp.haskell.org/)
+  when changing the visibility
+  of a library from `public` to `private`.
 {% end %}
 
 ### Depending on a public sublibrary
@@ -71,30 +79,34 @@ If you omit the `:sublibname` part, you are specifying a dependency on the
 main (unnamed) library, so you don't need to change existing dependencies.
 
 You can explicitly depend on the main library by using the package name as
-sublibrary name (this is mostly needed when depending on multiple sublibraries,
-see next paragraph):
+sublibrary name (this is mostly needed when depending on multiple sublibraries
+in a single line, see next paragraph):
 
 ```cabal
 executable my-exe
     build-depends: packagename:packagename >=1.0 && <1.1
 ```
 
-When depending on multiple libraries from a single package you can also use this
-syntax:
+When depending on multiple libraries belonging to a single package you can also
+use this shorthand syntax:
 
 ```cabal
 executable my-exe
     build-depends: packagename:{lib1, lib2} >=1.0 && <1.1
 ```
 
-{% warn(title="for all developers when depending on an external sublibrary") %}
-  `cabal-install`'s solver isn't public-library-aware yet, and until
-  [#6047](https://github.com/haskell/cabal/pull/6047) is merged it will happily
-  choose to depend on a private library if it falls within the specified
-  version range, and then fail at the configure step.
-  To keep things working smoothly,
-  remember to specify [correct version bounds](https://pvp.haskell.org/)
-  when depending on sublibraries.
+which is equivalent to
+
+```cabal
+executable my-exe
+    build-depends: packagename:lib1 >=1.0 && <1.1
+    build-depends: packagename:lib2 >=1.0 && <1.1
+```
+
+{% note(title="remember to specify correct version bounds") %}
+  While `cabal-install`'s solver will rule out package versions that don't
+  provide the required libraries, it's still a good idea to enforce that with
+  [version bounds](https://pvp.haskell.org/).
 
   Ensure that the lower bound is strict enough that older versions of the
   dependency where the sublibrary wasn't public / didn't exist are correctly
@@ -104,29 +116,8 @@ executable my-exe
 
 ## Known bugs
 
-There are a few minor bugs in the implementation. They are mostly edge cases,
-but it's good to know about them:
-
-* [#6038](https://github.com/haskell/cabal/issues/6038):
-  To have sublibraries, a package must also have
-  a main (nameless) library.
-  The main library can be empty:
-  ```
-  […other attributes/stanzas…]
-
-  library
-
-  […other attributes/stanzas…]
-  ```
-* [#6083](https://github.com/haskell/cabal/issues/6083):
-  Due to a bug in the handling of qualified and unqualified
-  dependency syntaxes, internal libraries (sublibraries of the same package)
-  will take priority over external packages with the same name.
-  So, if you have an internal library `somelib`,
-  you won't be able to depend on a package named `somelib`,
-  even if you use the `somelib:somelib` syntax.
-* [#5846](https://github.com/haskell/cabal/issues/5846):
-  In some cases, omitting the version bounds causes a parsing failure.
+Known bugs and missing features are tracked at
+https://github.com/haskell/cabal/issues/5660
 
 ## Acknowledgements
 
@@ -144,4 +135,3 @@ Thanks to all!
 
 [^old-ghc]: Older GHCs are not able to properly store the visibility of
 a library, so with GHC&lt;8.8 all sublibraries will be treated as private.
-
