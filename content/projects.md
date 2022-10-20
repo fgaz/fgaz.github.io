@@ -91,6 +91,14 @@ My [NUR](https://github.com/nix-community/NUR) packages
 
 ## Fun things, experiments
 
+### minetest mods
+
+I wrote a bunch of [minetest](https://minetest.net) mods!
+
+[Sourcehut](https://sr.ht/projects/~fgaz/?search=%23minetest)
+
+[ContentDB](https://content.minetest.net/users/fgaz/)
+
 ### mysterytube
 
 Paste a youtube url and get the video pasted by the previous visitor. Mystery!
