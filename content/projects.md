@@ -48,7 +48,7 @@ Some styles for the [`identicon`](http://hackage.haskell.org/package/identicon) 
 
 [Github](https://github.com/fgaz/identicon-styles)
 
-Hackage: [squares](https://hackage.haskell.org/package/identicon-style-squares) - [shapes]()
+Hackage: [squares](https://hackage.haskell.org/package/identicon-style-squares) - [shapes](#)
 
 ### webpager
 
@@ -56,7 +56,7 @@ A generic pager serving html pages from a single big textfile
 
 [Github](https://github.com/fgaz/webpager)
 
-[not yet on Hackage]()
+[not yet on Hackage](#)
 
 ### beeptest
 
