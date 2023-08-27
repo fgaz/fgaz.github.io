@@ -6,7 +6,7 @@ title = "Projects"
 tags = ["projects", "list", "works"]
 +++
 
-There might be stuff that I forgot at [sourcehut](https://sr.ht/~fgaz) and [GitHub](https://github.com/fgaz).
+There might be stuff that I forgot at [sourcehut](https://sr.ht/~fgaz), [Codeberg](https://codeberg.org/fgaz), and [GitHub](https://github.com/fgaz).
 
 ## Useful things
 
