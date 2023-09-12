@@ -1,16 +1,13 @@
 $spacing: 0.5em
 $horizontal-rule: 1px solid #bbb
 
-//colors
-$lightbg: #ddd
-$lightestbg: #f5f5f5
-
 //readability
 html
   font-family: sans-serif
   font-size: 1.125em
   line-height: 1.6
   word-wrap: break-word // break long words/urls (like the tox id)
+  color-scheme: light dark // enable dark mode
 
 body
   max-width: 40em
@@ -47,11 +44,6 @@ footer
 article
   margin: $spacing 0
 
-a
-  color: blue
-a:visited
-  color: darkviolet
-
 // make the site title smaller
 header h1
   font-size: 1.5em
@@ -70,9 +62,11 @@ article img
 
 // make anchors less annoying
 .heading-anchor, .heading-anchor:visited
-  color: gray
-.heading-anchor:hover
-  color: blue
+  color: CanvasText
+  filter: contrast(0.2)
+  text-decoration: none
+//.heading-anchor:hover
+//  color: ActiveText
 
 
 // Figures
@@ -87,7 +81,7 @@ figcaption
   border-bottom: $captionborder
   border-right: $captionborder
   border-left: $captionborder
-  background-color: $lightestbg
+  background-color: rgba(128,128,128,0.1)
   padding: $spacing
   text-align: center
 
@@ -106,8 +100,8 @@ figure > img
     padding-right: $spacing
 
 .warn
-  background-color: rgba(255,200,100,0.5)
+  background-color: rgba(255,200,100,0.3)
 
 .note
-  background-color: rgba(200,200,255,0.5)
+  background-color: rgba(200,200,255,0.3)
 
