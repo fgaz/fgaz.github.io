@@ -6,7 +6,7 @@ title = "About"
 tags = ["about", "contact", "fgaz", "Francesco Gazzetta"]
 +++
 
-I'm Francesco Gazzetta, a student of computer science from Treviso, Italy. I enjoy programming, hiking, photographing<del>, and keeping this blog up-to-date</del>.
+I'm Francesco Gazzetta, a software developer from Treviso, Italy. I enjoy programming, hiking, photographing<del>, and keeping this website up-to-date</del>.
 
 You can find/contact me on a variety of services:
 
@@ -29,4 +29,3 @@ You can find/contact me on a variety of services:
   * Twitter: <a rel="me" href="https://twitter.com/fgaz_">@fgaz\_</a>
 * Misc
   * Keybase: <a rel="me" href="https://keybase.io/fgaz">@fgaz</a>
-
